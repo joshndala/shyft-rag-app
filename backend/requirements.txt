@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+sentence-transformers
+faiss-cpu
+rank-bm25
+requests
+pypdf
+beautifulsoup4
+python-dotenv
+python-multipart
