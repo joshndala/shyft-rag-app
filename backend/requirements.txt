@@ -8,3 +8,5 @@ pypdf
 beautifulsoup4
 python-dotenv
 python-multipart
+pydantic
+aiohttp
