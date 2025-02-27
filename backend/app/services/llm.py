@@ -46,17 +46,16 @@ async def ask_llm_streaming(question, context_chunks):
     }
     
     data = {
-        "model": "mistralai/mixtral-8x7b-instruct",  # You can adjust the model
+        "model": "mistralai/mixtral-8x7b-instruct",
         "messages": [
             {"role": "system", "content": "You are a helpful assistant that provides accurate information based on context from retrieved documents."},
             {"role": "user", "content": prompt}
         ],
         "stream": True,
-        "temperature": 0.1  # Lower temperature for more factual responses
+        "temperature": 0.1  
     }
     
     try:
-        # Make the request in a way that can be properly awaited
         response = requests.post(
             "https://openrouter.ai/api/v1/chat/completions",
             json=data,
