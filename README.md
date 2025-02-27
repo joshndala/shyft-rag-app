@@ -49,7 +49,7 @@ A web application that implements Retrieval Augmented Generation (RAG) to answer
 ### Uploading Documents
 
 1. Navigate to the "Upload" page
-2. Click "Choose File" and select a PDF or HTML file
+2. Click "Choose File" and select a PDF or HTML file (The document tested for this app can be found [here](https://arxiv.org/pdf/2412.19437))
 3. Click "Upload" to process the document
 4. Wait for confirmation that the document has been indexed
 
