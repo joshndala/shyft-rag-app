@@ -24,7 +24,7 @@ A web application that implements Retrieval Augmented Generation (RAG) to answer
 
 - Docker and Docker Compose
 - OpenRouter API key (for LLM access)
-- Hugging Face token (for downloading embedding models)
+- Hugging Face token (read-only access is sufficient, for downloading embedding models)
 
 ### Setup
 
